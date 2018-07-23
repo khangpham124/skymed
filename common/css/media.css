@@ -1,0 +1,407 @@
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+    .contactHead {
+        display: none;
+    }
+}
+
+/* Smartphone */
+
+@media only screen and (max-width: 767px) {
+    #logo img {
+        height: 50px;
+    }
+    .headerInner {
+        padding: 15px;
+    }
+
+    .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+        height: 3px !important;
+    }
+
+    #sliderTop button {
+        display: none !important;
+    }
+
+    .langBar {
+        margin: 0 15px;
+    }
+
+    .aboutBox__contact {
+        margin-top: -230px;
+        display: block;
+        text-align: center;
+        padding: 35px 10px;
+    }
+    .aboutBox__contact .p2 {
+        margin: 10px 0 20px;
+        display: block;
+    }
+    .aboutBox__contact .p3 {
+        display: block;
+        width: 80%;
+        text-align: center;
+        padding: 17px 0;
+        margin: 0 auto;
+    }
+    .aboutBox {
+        background: #f7f7f7 url(../../img/top/bg_top@sp.png) no-repeat left top;
+        background-size: cover;
+        padding: 40px 15px; 
+    }
+
+    .large_heading_page {
+        font-size: 32px;
+    }
+
+    .large_heading_page + .desc_page {
+        margin-top: 25px;
+    }
+
+    .desc_page {
+        text-align: justify;
+    }
+
+    .boxTop1 {
+        flex-direction: column-reverse;
+    }
+
+    .boxTop1 img, .boxTop2 img {
+        width: 100%;
+    }
+
+    .boxTop1 .textTop, .boxTop2 .textTop {
+        width: 100%;
+        text-align: center;
+        padding: 70px 15px;
+    }
+
+    .boxTop2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .boxTop1 .btnMore, .boxTop2 .btnMore {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .boxTop3 {
+        padding: 70px 15px;
+    }
+
+    .lstNews {
+        display: block;
+        }
+    .lstNews li {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .lstNews li:first-child {
+        margin-top: 0;
+    }
+
+    #footerWrap {
+        flex-direction: column-reverse;
+    }
+
+    .rightFoot, .leftFoot {
+        width: 100%;
+    }
+
+    .rightFoot {
+        height: 250px;
+    }
+
+    .leftFoot {
+        padding: 30px 15px;
+    }
+
+    #footerWrap .inputText {
+        width: 48%;
+    }
+
+    .submitForm {
+        padding: 17px 0;
+    }
+
+    .chargeBox {
+        flex-wrap: wrap;
+        }
+    .chargeBox p {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .copyright {
+        font-size: 11px;
+    }
+
+    .gNavi {
+        width: 100%;
+        }
+
+    .gNavi li {
+        margin: 40px 0;
+    }
+
+    #sliderTop .txtSlide h2 {
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    #sliderTop .txtSlide h2:before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 3px;
+        background: #fe0038;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+    }
+    #sliderTop .txtSlide h3 {
+        font-size: 14px;
+    }
+    #sliderTop .txtSlide {
+        width: 100%;
+    }
+    #sliderTop {
+        height: auto;
+    }
+    .slider li {
+        background: none !important;
+    }
+
+    .headSub {
+        height: 160px;
+    }
+
+    .lstFaq {
+        width: 100%;
+    }
+    .h2_subpage {
+        font-size: 24px;
+        width: 100%;
+    }
+    .h3_safety {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    #breadcum {
+        margin-bottom: 0;
+    }
+    .txtSafety {
+        text-align: justify;
+        margin-top: 30px;
+    }
+    .footerSub {
+        margin-top: 70px;
+    }
+    .footerInner {
+        display: block !important;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .footerInner .h4_footer {
+        text-align: center;
+    }
+    .footerMenu {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footerMenu li {
+        margin-bottom: 10px;
+    }
+
+    .lstFaq li .question {
+        font-size: 16px;
+    }
+
+    .lstFaq li {
+        padding-bottom: 25px;
+    }
+
+    .lstFaq li + li {
+        margin-top: 25px;
+    }
+
+    .lstFaq + .lstFaq {
+        margin-top: 25px;
+    }
+    .noneFlex {
+        display: block;
+    }
+    .h3_about {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .txtAbout {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .listIconAbout li {
+        width: 47%;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    .listIconAbout li p {
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .listIconAbout + .listIconAbout {
+        margin-top: 0px;
+    }
+
+    .tabBox {
+        margin-bottom: 40px;
+        overflow-y: hidden;
+        width: 100%;
+    }
+    
+    .tabContent {
+        width: 100%;
+    }
+
+    .listTab {
+        display: flex;
+        flex-wrap: wrap;
+        width: 200%;
+    }
+
+    .tabBox > ul > li {
+        padding-left: 0;
+        padding-bottom: 8px;
+        margin-right: 25px;
+        margin-bottom: 0;
+    }
+
+    .tabBox > ul > li:before {
+        background: none;
+    }
+
+    .tabBox > ul > li:after {
+        bottom: 0;
+        width: 0;
+        top:inherit;
+    }
+
+    .tabBox > ul > li.active:after {
+        width: 100% !important;
+    }
+
+    .h4_about {
+        font-size: 24px;
+    }
+
+    .listLocate li {
+        width: 100%;
+    }
+
+    .listLocate {
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+
+    .listLocate li + li {
+        margin-top: 30px;
+    }
+
+    .listTeam {
+        align-items: flex-start;
+    }
+
+    .servicesDesc--left, .imgServices {
+        width: 100%;
+    }
+    #fleet .listPlane li {
+        width: 100%;
+    }
+
+    #fleet .listPlane li + li {
+        margin-top: 40px;
+    }
+    .mainPlane {
+        padding: 60px 15px;
+    }
+    .imgPlane {
+        margin-top: 30px;
+    }
+
+    .mainPlane h2 {
+        font-size: 24px;
+    }
+    .hamburger {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .contactBox .col {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .infoContact {
+        flex-wrap: wrap;
+    }
+    .contactBox .p3 {
+        width: 100%;
+    }
+    .contactBox {
+        padding: 30px 20px;
+    }
+
+    .servicesDesc {
+        margin-bottom: 60px;
+    }
+
+    .popup {
+        width: 100%;
+        padding: 50px 30px;
+        max-height: 100%;
+        height: 100%;
+    }
+
+    .popup .name {
+        font-size: 25px;
+        }
+
+    .h4_footer {
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+    .infoGuy th {
+        font-size: 16px;
+    }
+    .headPopup {
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 320px) and (max-width: 480px) {
+    .large_heading_page {
+        font-size: 25px;
+    }
+
+    .boxTop1 .textTop, .boxTop2 .textTop {
+        padding: 50px 15px;
+    }
+
+    #logo img {
+        height: 40px;
+    }
+
+    
+    .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+        width: 20px;
+    }
+
+    
+}
